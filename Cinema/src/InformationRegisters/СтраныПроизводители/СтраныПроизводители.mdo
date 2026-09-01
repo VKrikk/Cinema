@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fca0531b-77ef-4446-9b14-92728435b792">
+  <producedTypes>
+    <selectionType typeId="0f9906a6-eecb-44e3-8ccb-b53998ef0085" valueTypeId="6f48a9b5-30bf-4128-a071-55c74d8e03ac"/>
+    <listType typeId="de4dbbbf-9e23-429e-84db-499443e7f49d" valueTypeId="bfa38a1a-8500-42e5-a7e9-7466da724e53"/>
+    <managerType typeId="8dbbf9aa-3e19-464d-a000-76b75b913a5d" valueTypeId="67696544-d136-4390-8281-386492d21480"/>
+    <recordSetType typeId="2a3ada01-41e3-4209-888a-e5d6818221d4" valueTypeId="c201465e-397e-4c93-8242-21838ff0c86c"/>
+    <recordKeyType typeId="6e8ccbe7-3021-4912-86c8-f42625e478b4" valueTypeId="53d73b54-86e3-4cd1-a74e-768ea1aea665"/>
+    <recordType typeId="74d43e0f-b611-4f5c-9126-5228eb46bc0a" valueTypeId="b6d2f176-179f-47b6-ba25-5a45ba6886f6"/>
+    <recordManagerType typeId="d4c0e252-3aaf-46f1-ac70-55ec0fd64572" valueTypeId="993b9bd7-f3d9-44e5-b4b1-9676c329365b"/>
+  </producedTypes>
+  <name>СтраныПроизводители</name>
+  <synonym>
+    <key>ru</key>
+    <value>Страны-производители</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Страна-производитель</value>
+  </recordPresentation>
+  <dimensions uuid="e3980546-f1cd-4177-ae18-d85ea6095ea8">
+    <name>Фильм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фильм</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Фильмы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e27fee88-5727-42e1-a4b4-bbd3ef267f2c">
+    <name>Страна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страна</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Страны</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

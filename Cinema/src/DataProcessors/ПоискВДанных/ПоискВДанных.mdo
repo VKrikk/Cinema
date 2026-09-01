@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77ff4a04-e7d6-4c32-b33b-96c9ee97d8b6">
+  <producedTypes>
+    <objectType typeId="b1a00e52-94db-4e69-91f7-e21cfbc3ece9" valueTypeId="1bd4b4aa-0b4a-4da4-a8e3-0192a893f004"/>
+    <managerType typeId="ca5e82c9-16af-464d-9423-6f5279304ef7" valueTypeId="fe1f1590-c08e-4163-bb91-844ae8712cf9"/>
+  </producedTypes>
+  <name>ПоискВДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск в данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПоискВДанных.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="8303017a-3230-4076-96e7-8cdb3d6f7203">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4396e493-709a-4dfc-8d72-5be0b8acc412">
+    <name>ФормаВыбораМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора метаданных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

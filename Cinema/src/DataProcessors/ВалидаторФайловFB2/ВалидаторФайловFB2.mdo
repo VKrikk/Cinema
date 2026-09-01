@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8a90407-f777-4e5c-8e52-fb2b889d72d7">
+  <producedTypes>
+    <objectType typeId="f69a1041-addf-40c1-a137-3aecf6c23b99" valueTypeId="e7a49a55-6852-42d0-9aba-8ed2ad1cefb4"/>
+    <managerType typeId="d1517ce9-8485-4c8f-a749-0f9af49b2f2b" valueTypeId="e3a12706-ab7e-4e86-80fa-c049e66cf41d"/>
+  </producedTypes>
+  <name>ВалидаторФайловFB2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валидатор файлов *.fb2</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВалидаторФайловFB2.Form.Форма</defaultForm>
+  <forms uuid="ed61b066-77e5-4a76-af99-7483b0486d01">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

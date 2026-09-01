@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd8f5302-6255-4459-a2d2-c5c0ef0c76e7">
+  <producedTypes>
+    <objectType typeId="760f92d5-28dd-4356-8b18-b2c69e5f84a4" valueTypeId="f3c6c8f6-956f-434d-a71f-e4bb76388879"/>
+    <managerType typeId="120db444-01cc-4572-b82f-fd56793badc7" valueTypeId="82021a1e-d920-4e11-a655-c7cddf29cc21"/>
+  </producedTypes>
+  <name>УниверсальнаяКонсоль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Универсальная консоль</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УниверсальнаяКонсоль.Form.Форма</defaultForm>
+  <forms uuid="9675ff13-3fa4-4a69-ba5a-8536974c49c0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="0e1011e9-28ba-412f-a9ab-ed9069a705a8">
+    <name>Внимание32</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внимание32.png</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="2e6255db-5590-4550-bf91-4122ec4ab58b">
+    <name>Ошибка32</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка32.png</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="2c50433f-2123-4d68-86b3-ae2ab15ffe7f">
+    <name>Информация32</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация32.png</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="7ca34016-b621-4688-b6b2-3c3710a0dc9c">
+    <name>ВыполненоУспешно32</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВыполненоУспешно32.png</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

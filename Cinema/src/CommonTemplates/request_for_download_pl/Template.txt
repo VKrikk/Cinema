@@ -1,0 +1,44 @@
+#!/usr/bin/perl
+
+my $input;
+my $filename = 'ReQuest.txt';
+my $list = "";
+my $list_no_br = "";
+my $now_string = localtime;
+my $subject = "Список фильмов к скачиванию $now_string";
+
+if ($ENV{REQUEST_METHOD} eq "POST") {read STDIN, $input, $ENV{CONTENT_LENGTH}}
+else {$input=$ENV{QUERY_STRING}}
+
+open(my $file, '>>', $filename) or die "Не могу открыть файл '$filename' $!";
+
+print $file "\n$now_string\n";
+
+@pairs = split(/&/, $input);
+foreach $pair (@pairs) {
+        ($name, $value) = split(/=/, $pair);
+                $value =~ tr/+/ /;
+                $value =~ s/\%([A-Fa-f0-9]{2})/pack('C', hex($1))/eg;
+   print $file "$value\n";
+   $list .= "- $value<br>";
+}
+
+close $file;
+
+if($list ne '') {
+ $list_no_br .= $list;
+ $list_no_br =~ s/<br>/\n/g;
+ open (SENDMAIL, "|/usr/sbin/sendmail -t") or die "sendmail not ready";
+ print SENDMAIL "From: ReadyNAS <ххх\@ххх.ru>\n";
+ print SENDMAIL "To: Vladimir <ххх\@ххх.ru>\n";
+ print SENDMAIL "Content-Type: text/plain; charset=utf-8\n";
+ print SENDMAIL "Subject: $subject\n\n";
+ print SENDMAIL "$subject\n\n";
+ print SENDMAIL "$list_no_br";
+ close (SENDMAIL) or warn "sendmail didn't close nicely";
+}
+
+print "Content-type: text/html; charset=utf8\n\n";
+print "<h1>Заявка принята</h1>\n";
+print "<p><b>Список фильмов к скачиванию ($now_string):</b><br>$list</p>\n";
+print "<a href=\"/www/index.html\"><img src=\"/www/img/icon_mainpage.png\"> Вернуться на главную страницу...</a>\n";

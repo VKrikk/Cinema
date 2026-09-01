@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7879bef6-cfd5-4a0e-8c69-e37393d180e1">
+  <name>ПогодаВВолхове</name>
+  <synonym>
+    <key>ru</key>
+    <value>Погода в Волхове</value>
+  </synonym>
+  <methodName>CommonModule.ОбщийМодульСервер.ПогодаВВолхове</methodName>
+  <description>Погода в Волхове</description>
+  <key>Погода в Волхове</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

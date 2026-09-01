@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5b66bb3-401e-4302-9318-4102f5e01f76">
+  <producedTypes>
+    <objectType typeId="d1027f44-2fbd-4a6b-b4ee-67a2efaa764b" valueTypeId="5d272507-6a13-4562-9981-f25cf9920402"/>
+    <managerType typeId="becbde7b-dd40-434f-9fed-59d248cd6ba3" valueTypeId="7d49af5c-cd1d-4d37-bc6f-65cb866bd275"/>
+  </producedTypes>
+  <name>ПогодаВВолхове</name>
+  <synonym>
+    <key>ru</key>
+    <value>Погода в Волхове</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПогодаВВолхове.Form.Форма</defaultForm>
+  <forms uuid="a0dadba2-404a-4b8a-8df0-ed57c733be0f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

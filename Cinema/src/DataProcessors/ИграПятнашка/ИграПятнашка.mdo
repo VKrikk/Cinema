@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01160bf0-829b-4111-a2dd-8d3204cd82db">
+  <producedTypes>
+    <objectType typeId="c1904073-d69c-42ec-a0a2-e8ba0cb90067" valueTypeId="99244116-fd33-4a90-9ce8-7434c9550172"/>
+    <managerType typeId="d1b7ae1e-6818-49da-9cf7-a9a87fc597c9" valueTypeId="7c25ebb4-1165-435a-af25-f9b4bb90ee0b"/>
+  </producedTypes>
+  <name>ИграПятнашка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Игра &quot;Пятнашка&quot;</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИграПятнашка.Form.Форма</defaultForm>
+  <forms uuid="9cb273dd-8413-4c09-81e9-16be4d6e6209">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

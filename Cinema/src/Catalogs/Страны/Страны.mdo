@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c759da6a-0721-4eb9-a426-b9fa0072116e">
+  <producedTypes>
+    <objectType typeId="fbc12641-2611-4a27-97ea-6fd2dc57c83a" valueTypeId="9a82e1f9-1ab2-4ab2-a01a-8fae78b02268"/>
+    <refType typeId="cd5feb91-2fe2-458d-b24f-d4d1368660ee" valueTypeId="e1ecf7e0-7e41-4d31-bef1-1e3614824218"/>
+    <selectionType typeId="822e5fb0-ab19-4105-a7cb-9f9290f3b196" valueTypeId="aa00843c-0a8b-4ba0-a7b5-d16851908b26"/>
+    <listType typeId="cd9c6bfc-fb0d-4e5d-a121-25f96ffaa845" valueTypeId="df6094dc-0e76-47e0-af6c-8c0cdc8875c9"/>
+    <managerType typeId="296be5fa-b6b5-456b-adb4-2be99470d0af" valueTypeId="5908fb41-55e3-472e-9e97-2227fa107f8c"/>
+  </producedTypes>
+  <name>Страны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Страны</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Страны.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Страны.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Страна</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="0a36187c-057e-4120-b292-836e39b9003a">
+      <name>Россия</name>
+      <description>Россия</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Страны.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Страны.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="9f037cdb-c611-4076-9f3c-bec645e48e51">
+    <name>Флаг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Флаг</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ec0f197d-0e36-463a-b3c1-a4691d151dc9">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d9dd052d-9a78-4c4e-b837-4952d2d94714">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

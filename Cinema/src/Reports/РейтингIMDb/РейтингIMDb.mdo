@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="108315e2-2c4d-4607-9ad4-0997df88c45e">
+  <producedTypes>
+    <objectType typeId="efdc7257-0b44-48a3-9d32-c4043ec2a3ec" valueTypeId="85e35222-3cdb-4fca-9600-ae44866d1a3d"/>
+    <managerType typeId="b0c57b2a-0b20-4e04-95b2-832ffeb8a80d" valueTypeId="afb7abce-efb0-455c-858b-9edcf1b3cfbb"/>
+  </producedTypes>
+  <name>РейтингIMDb</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рейтинг IMDb</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.РейтингIMDb.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="128b73cb-60ee-4e9e-8912-685c9ea2eda3">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

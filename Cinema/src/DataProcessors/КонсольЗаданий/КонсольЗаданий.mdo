@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65d6b5e7-42a3-4158-b04f-494bb3ca6eab">
+  <producedTypes>
+    <objectType typeId="6d7c6ac4-9c58-4b42-a736-a4a50d4b5804" valueTypeId="0c5c4ace-ff16-4745-83ab-a69c6923831a"/>
+    <managerType typeId="d467662c-4789-47b4-a2e8-3ffb78a09dd9" valueTypeId="a0b4dbf6-b07d-4873-9b1e-de5f86eb0fc7"/>
+  </producedTypes>
+  <name>КонсольЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль заданий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КонсольЗаданий.Form.Форма</defaultForm>
+  <forms uuid="4cf0783c-edd1-4f6d-b690-e621398f4501">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b860f2ea-47c2-4a3d-ab4d-5669dda8909a">
+    <name>ФормаРегламентногоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма регламентного задания</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="758d6149-4938-4033-af3a-37ed88f26fc1">
+  <producedTypes>
+    <objectType typeId="187a2b87-8224-4d7e-97d4-5fece162dc55" valueTypeId="00bfbb2e-f805-4634-b079-a4ea88d4c9f8"/>
+    <managerType typeId="f9f4f940-dd3d-4171-b85a-7d20d2fb1aaa" valueTypeId="1edc604c-1b70-4d8c-b10c-76c208909f23"/>
+  </producedTypes>
+  <name>Фильмотека</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фильмотека</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.Фильмотека.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="0f84cdb2-2f7d-46c6-b948-da956ec489a7">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

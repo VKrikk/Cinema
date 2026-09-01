@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="896b894f-a4d0-4689-8d39-6045ec115dda">
+  <producedTypes>
+    <objectType typeId="81beb3d0-acb0-429b-aa71-ef3530f52ca0" valueTypeId="71845c3b-6aab-4191-8ecc-a28c233d5d92"/>
+    <managerType typeId="d8664133-5262-40c3-816f-cfaf8212d45f" valueTypeId="8f272053-6ae3-43a7-8209-083f85d4f380"/>
+  </producedTypes>
+  <name>НаЭтойНеделеВКино</name>
+  <synonym>
+    <key>ru</key>
+    <value>На этой неделе в кино</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.НаЭтойНеделеВКино.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="cd3aa2e7-566e-4f84-8a36-86dd056c2909">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="3d625c18-6091-46f2-9129-73a514b88fff">
+    <name>КомандаОткрытьОтчетНаЭтойНеделеВКино</name>
+    <synonym>
+      <key>ru</key>
+      <value>На этой неделе в кино</value>
+    </synonym>
+    <group>ActionsPanelReports</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

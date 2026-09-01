@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cef53cc1-75eb-4890-8507-47845dde1471">
+  <producedTypes>
+    <objectType typeId="bdae8d1d-be9c-466b-827b-b61c91852778" valueTypeId="89ad0b15-e4d0-4a89-9f7d-ffa5abb26cf9"/>
+    <managerType typeId="78c0b1ef-0476-4b47-b9f7-bb7bce9ce713" valueTypeId="ead7f90a-ece8-4398-a9b7-e7130035670f"/>
+  </producedTypes>
+  <name>ПрочитатьФайлVCF</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочитать файл VCF</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПрочитатьФайлVCF.Form.Форма</defaultForm>
+  <forms uuid="848ebf1c-2792-4a51-aa35-8267f9db8bb7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="816004f8-7a24-4b13-9f81-689f71dce225">
+    <name>ТаблицаКонтактов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица контактов</value>
+    </synonym>
+  </templates>
+  <templates uuid="94ad3adf-6a42-4c33-9765-f2159d062169">
+    <name>СверяемыеКонтакты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сверяемые контакты</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

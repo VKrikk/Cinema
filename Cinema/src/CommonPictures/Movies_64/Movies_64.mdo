@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9eb8a0e-e1f9-4dfb-b155-a6313fe63849">
+  <name>Movies_64</name>
+  <synonym>
+    <key>ru</key>
+    <value>Movies 64</value>
+  </synonym>
+</mdclass:CommonPicture>

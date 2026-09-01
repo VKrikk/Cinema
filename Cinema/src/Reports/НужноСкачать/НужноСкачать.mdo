@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbef4e14-e945-4579-9ede-4d9a13ad0f28">
+  <producedTypes>
+    <objectType typeId="447d4b33-847c-49cf-908a-7f1cec7837c8" valueTypeId="4afb7cc5-9add-47c5-b691-9a5326c81a36"/>
+    <managerType typeId="f3d65359-25e2-425a-b786-232c57769311" valueTypeId="dcfd8f47-e3c7-485d-ba36-2439679de782"/>
+  </producedTypes>
+  <name>НужноСкачать</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нужно скачать</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.НужноСкачать.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="ede5a1c6-180a-4b43-8424-4b62438adb4c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="618860ea-d762-4443-8c54-6d7e878bb5f3">
+    <name>КомандаОткрытьОтчетНужноСкачать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нужно скачать</value>
+    </synonym>
+    <group>ActionsPanelReports</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

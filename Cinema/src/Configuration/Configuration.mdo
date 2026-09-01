@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15cbd213-d6cc-4a19-bd4d-740d7a87486c">
+  <name>Фильмотека</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фильмотека</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="e4eff6f7-f444-424b-af6c-7172352e7cbd"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="1469706a-3e1c-454b-9fec-5b2863c1e529"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="5e4fe5ba-ad8a-4ed0-9914-11ccb8295f87"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="a8465f96-ba5e-43bd-996e-f9f25255fd3f"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="14ea8747-d74a-42e8-b4f9-98bc7d311e0a"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="f66b41d7-5a90-4e63-9613-d89861eac800"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="67214808-7a02-4386-8906-0c1b9797fdc2"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <version>1.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Учет фильмов в домашней фильмотеке</value>
+  </detailedInformation>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.25</compatibilityMode>
+  <languages uuid="4bd5c8f4-fc48-4735-ab48-6a514031d35c">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Фильмотека</subsystems>
+  <subsystems>Subsystem.ПрочиеОбъекты</subsystems>
+  <commonPictures>CommonPicture.Book_64</commonPictures>
+  <commonPictures>CommonPicture.Cinema_64</commonPictures>
+  <commonPictures>CommonPicture.Download_64</commonPictures>
+  <commonPictures>CommonPicture.Movies_64</commonPictures>
+  <commonPictures>CommonPicture.Popcorn_64</commonPictures>
+  <commonPictures>CommonPicture.Poster_none</commonPictures>
+  <commonPictures>CommonPicture.World_64</commonPictures>
+  <commonPictures>CommonPicture.Фильмотека48</commonPictures>
+  <commonPictures>CommonPicture.ФорматExcel</commonPictures>
+  <commonPictures>CommonPicture.ФорматPDF</commonPictures>
+  <commonPictures>CommonPicture.СохранитьНаДиск48</commonPictures>
+  <commonPictures>CommonPicture.Оскар48</commonPictures>
+  <commonPictures>CommonPicture.Скрепка</commonPictures>
+  <commonPictures>CommonPicture.УчетВремени48</commonPictures>
+  <commonTemplates>CommonTemplate.ИнформацияОФильме</commonTemplates>
+  <commonTemplates>CommonTemplate.request_for_download_pl</commonTemplates>
+  <commonModules>CommonModule.ОбщийМодульВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбщийМодульКлиент</commonModules>
+  <commonModules>CommonModule.ОбщийМодульКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщийМодульКлиентСерверПовтИсп</commonModules>
+  <commonModules>CommonModule.ОбщийМодульСервер</commonModules>
+  <commonAttributes>CommonAttribute.Комментарий</commonAttributes>
+  <eventSubscriptions>EventSubscription.ПроверкаПовторяющихсяНаименований</eventSubscriptions>
+  <scheduledJobs>ScheduledJob.КонтрольКорректностиЗаполнения</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ПогодаВВолхове</scheduledJobs>
+  <scheduledJobs>ScheduledJob.УменьшениеРазмеровИзображений</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОбновлениеИндексаПолнотекстовогоПоиска</scheduledJobs>
+  <commandGroups>CommandGroup.Печать</commandGroups>
+  <constants>Constant.АдресОтправителя</constants>
+  <constants>Constant.АдресСервераSMTP</constants>
+  <constants>Constant.АвтоЗавершениеСеансов</constants>
+  <constants>Constant.ВремяАвтоЗавершенияСеансов</constants>
+  <constants>Constant.ДлинаАннотации</constants>
+  <constants>Constant.МаксимальныйРазмерИзображения</constants>
+  <constants>Constant.МинимальныйРазмерИзображения</constants>
+  <constants>Constant.ПараметрыУтилитыСжатия</constants>
+  <constants>Constant.Пароль</constants>
+  <constants>Constant.Пользователь</constants>
+  <constants>Constant.ПортSMTP</constants>
+  <constants>Constant.УтилитаСжатияИзображений</constants>
+  <constants>Constant.УтилитаКонвертацииИзображений</constants>
+  <commonForms>CommonForm.Настройки</commonForms>
+  <commonForms>CommonForm.РабочийСтол</commonForms>
+  <commonForms>CommonForm.ФормаПечати</commonForms>
+  <catalogs>Catalog.АдресаОповещения</catalogs>
+  <catalogs>Catalog.Аннотации</catalogs>
+  <catalogs>Catalog.Жанры</catalogs>
+  <catalogs>Catalog.ЗначенияСвойств</catalogs>
+  <catalogs>Catalog.Страны</catalogs>
+  <catalogs>Catalog.Фильмы</catalogs>
+  <documents>Document.ПоходВКино</documents>
+  <reports>Report.ГрафикЦифровыхРелизов</reports>
+  <reports>Report.ЖурналРегистрации</reports>
+  <reports>Report.ИсторияДанных</reports>
+  <reports>Report.НаЭтойНеделеВКино</reports>
+  <reports>Report.НекорректноЗаполненныеФильмы</reports>
+  <reports>Report.НужноСкачать</reports>
+  <reports>Report.ОтчетПоДатамСкачиванияФильмов</reports>
+  <reports>Report.ОтчетПоЖанрам</reports>
+  <reports>Report.РейтингIMDb</reports>
+  <reports>Report.Статистика</reports>
+  <reports>Report.СтраныПроизводители</reports>
+  <reports>Report.Фильмотека</reports>
+  <dataProcessors>DataProcessor.ВалидаторФайловFB2</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаВыгрузкаBase64</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаВыгрузкаИзображений</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаГрафикаРелизов</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаСКиноПоиска</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаФильмаСКиноПоискаПоИд</dataProcessors>
+  <dataProcessors>DataProcessor.ИграПятнашка</dataProcessors>
+  <dataProcessors>DataProcessor.ИнформацияОСистеме</dataProcessors>
+  <dataProcessors>DataProcessor.КонсольЗаданий</dataProcessors>
+  <dataProcessors>DataProcessor.НастройкиКлиентскогоПриложения</dataProcessors>
+  <dataProcessors>DataProcessor.ОбновлениеДопИнформации</dataProcessors>
+  <dataProcessors>DataProcessor.ПереименованиеПоСписку</dataProcessors>
+  <dataProcessors>DataProcessor.ПогодаВВолхове</dataProcessors>
+  <dataProcessors>DataProcessor.ПоискВДанных</dataProcessors>
+  <dataProcessors>DataProcessor.ПрочиеОбработки</dataProcessors>
+  <dataProcessors>DataProcessor.ПрочитатьФайлVCF</dataProcessors>
+  <dataProcessors>DataProcessor.РаскодированиеФайлаVCF</dataProcessors>
+  <dataProcessors>DataProcessor.УниверсальнаяКонсоль</dataProcessors>
+  <dataProcessors>DataProcessor.ПолучитьПочту</dataProcessors>
+  <informationRegisters>InformationRegister.ДатыСкачиванияФильмов</informationRegisters>
+  <informationRegisters>InformationRegister.ЖанрыФильмов</informationRegisters>
+  <informationRegisters>InformationRegister.ЗначенияДополнительныхСвойств</informationRegisters>
+  <informationRegisters>InformationRegister.СтраныПроизводители</informationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеСвойства</chartsOfCharacteristicTypes>
+</mdclass:Configuration>

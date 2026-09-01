@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f3ca264-142d-4b9b-ac4b-5e0842a7e61d">
+  <producedTypes>
+    <selectionType typeId="82dfbab5-abae-4827-93c4-f8e4e2c1cb14" valueTypeId="89bf1147-f227-4893-8378-8b7aee31884e"/>
+    <listType typeId="018957c1-e49f-41a7-8719-5390638af069" valueTypeId="abdfaa19-1540-4cc0-8678-788854ab3f0d"/>
+    <managerType typeId="8ffe3d1e-cb30-4803-a3b5-3a54dac989f9" valueTypeId="4d8dd469-85f8-48c6-b6a1-5c2d30770a1c"/>
+    <recordSetType typeId="245388fa-f1e1-4989-8ce3-83198b5f0ed9" valueTypeId="744c07f8-8031-4809-89bf-302df7c2efdc"/>
+    <recordKeyType typeId="98ea8e7b-beee-4a76-b200-fa1159986fa5" valueTypeId="144681c7-0a65-4cfd-9bbd-7171ec88a7f5"/>
+    <recordType typeId="52fa1757-7d4a-44c4-a7fa-be343c6546b3" valueTypeId="adfd47ae-be94-43be-8d38-3fcb7d23740b"/>
+    <recordManagerType typeId="47095926-2048-49c8-9bb2-704e70f8c06c" valueTypeId="8233c01a-ed33-4fcc-86ea-608a4839fa7f"/>
+  </producedTypes>
+  <name>ДатыСкачиванияФильмов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Даты скачивания фильмов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ДатыСкачиванияФильмов.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="24475423-c1cb-46db-b54a-a00edfd06399">
+    <name>ДатаСкачивания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата скачивания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2be75406-7bc1-425d-87ad-96c07daff773">
+    <name>Фильм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фильм</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Фильмы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="248ae51a-2f41-4a84-a47d-6273182a0a41">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

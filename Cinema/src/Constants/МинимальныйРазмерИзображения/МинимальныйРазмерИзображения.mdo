@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d32494ec-30ab-4a18-b08c-3c7ddf4ede7a">
+  <producedTypes>
+    <managerType typeId="1747d2dd-9e05-46e8-a952-d418aa1e0ea0" valueTypeId="db259241-26e9-40dc-b213-6603f0096ae4"/>
+    <valueManagerType typeId="dffa0996-7176-4597-ac58-1c8f3a4f9ff7" valueTypeId="7ea4a941-d69e-4685-b052-3630a25abcf9"/>
+    <valueKeyType typeId="a2e5822a-6495-45c1-b613-320396a960d0" valueTypeId="0cf1be10-15d7-4a7d-a1a5-3944c7d2c526"/>
+  </producedTypes>
+  <name>МинимальныйРазмерИзображения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Минимальный размер изображения (байт)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

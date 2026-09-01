@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0923da5-c68f-4aba-9d68-c370ad582c62">
+  <name>Фильмотека</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фильмотека</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Фильмотека48</picture>
+  </picture>
+  <content>Catalog.Фильмы</content>
+  <content>Catalog.Страны</content>
+  <content>Catalog.Жанры</content>
+  <content>InformationRegister.ЖанрыФильмов</content>
+  <content>InformationRegister.СтраныПроизводители</content>
+  <content>Catalog.Аннотации</content>
+  <content>Report.НужноСкачать</content>
+  <content>Report.СтраныПроизводители</content>
+  <content>Report.НаЭтойНеделеВКино</content>
+  <content>DataProcessor.НастройкиКлиентскогоПриложения</content>
+  <content>Report.ОтчетПоЖанрам</content>
+  <content>Catalog.ЗначенияСвойств</content>
+  <content>ChartOfCharacteristicTypes.ДополнительныеСвойства</content>
+  <content>InformationRegister.ЗначенияДополнительныхСвойств</content>
+  <content>Report.НекорректноЗаполненныеФильмы</content>
+  <content>Catalog.АдресаОповещения</content>
+  <content>CommonForm.Настройки</content>
+  <content>InformationRegister.ДатыСкачиванияФильмов</content>
+  <content>DataProcessor.ЗагрузкаСКиноПоиска</content>
+  <content>Report.ОтчетПоДатамСкачиванияФильмов</content>
+  <content>Document.ПоходВКино</content>
+  <content>Constant.ДлинаАннотации</content>
+  <content>Constant.МаксимальныйРазмерИзображения</content>
+  <content>DataProcessor.ЗагрузкаВыгрузкаИзображений</content>
+  <content>DataProcessor.ОбновлениеДопИнформации</content>
+  <content>Constant.АдресОтправителя</content>
+  <content>Constant.АдресСервераSMTP</content>
+  <content>Constant.Пароль</content>
+  <content>Constant.Пользователь</content>
+  <content>Constant.ПортSMTP</content>
+  <content>DataProcessor.ЗагрузкаГрафикаРелизов</content>
+  <content>Constant.МинимальныйРазмерИзображения</content>
+  <content>Constant.ПараметрыУтилитыСжатия</content>
+  <content>Constant.УтилитаСжатияИзображений</content>
+  <content>CommonForm.РабочийСтол</content>
+  <content>Report.Фильмотека</content>
+  <content>Report.Статистика</content>
+  <content>Constant.УтилитаКонвертацииИзображений</content>
+  <content>DataProcessor.ЗагрузкаФильмаСКиноПоискаПоИд</content>
+  <content>Report.ГрафикЦифровыхРелизов</content>
+  <content>371daaaf-2eb6-4d02-9283-1fbb31dd8b4e</content>
+  <content>Constant.АвтоЗавершениеСеансов</content>
+  <content>Constant.ВремяАвтоЗавершенияСеансов</content>
+  <subsystems>Прочее</subsystems>
+</mdclass:Subsystem>

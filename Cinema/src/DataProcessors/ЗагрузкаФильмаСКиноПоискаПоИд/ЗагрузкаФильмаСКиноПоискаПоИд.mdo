@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="757bb4c2-cbc5-4eae-87ca-abbf430b3641">
+  <producedTypes>
+    <objectType typeId="b78f0134-494e-4e74-8f96-d80a8d934bef" valueTypeId="37bcf578-ed8f-4fe3-a2ee-c802fa6106c7"/>
+    <managerType typeId="feb606d2-a063-48ce-930b-e7cacfab94ed" valueTypeId="72c0028a-5ece-43e0-8a67-44b4688b207b"/>
+  </producedTypes>
+  <name>ЗагрузкаФильмаСКиноПоискаПоИд</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка фильма с &quot;КиноПоиска&quot; по ID</value>
+  </synonym>
+  <comment>Загрузка одного фильма с &quot;КиноПоиска&quot; по идентификатору</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаФильмаСКиноПоискаПоИд.Form.Форма</defaultForm>
+  <forms uuid="1518af8f-fa1d-476f-9f20-b0ebd1d9d390">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67361fd6-aff5-4ab1-8624-213e95bc4f11">
+  <producedTypes>
+    <managerType typeId="7b3d3765-9663-4120-a1fb-506d751c7522" valueTypeId="28359e9d-a0c8-4d1a-80fd-bbb63ec663b9"/>
+    <valueManagerType typeId="a746c7e0-7b94-40c2-8df6-3e872fd87311" valueTypeId="ada25b56-ed28-476b-843a-c0f6f2d5d268"/>
+    <valueKeyType typeId="5c235a32-f14a-4af6-86e2-f7750c803520" valueTypeId="df7490d5-fc19-4f82-b9aa-3b0d654d47f5"/>
+  </producedTypes>
+  <name>ВремяАвтоЗавершенияСеансов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Время авто завершения сеансов</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Time</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

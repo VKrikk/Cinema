@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4900f7c7-1d3a-4858-b361-ddacd9d63091">
+  <producedTypes>
+    <managerType typeId="01f567ab-ce77-4db8-9259-9a5f3a08e570" valueTypeId="dd067dc0-6669-41d7-ac3d-81097910681c"/>
+    <valueManagerType typeId="998f56c0-acff-44e2-b6b9-8b95ded19555" valueTypeId="7a904c89-d37a-4347-bf11-bdf6bd648c77"/>
+    <valueKeyType typeId="a4b820f3-0f50-5779-ac36-96d067b42f65" valueTypeId="35601d6f-6d89-506d-bad8-17c9f5b59fba"/>
+  </producedTypes>
+  <name>ДлинаАннотации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Длина аннотации при печати</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>4</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

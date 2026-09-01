@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dabd0dde-778b-4628-b828-f58fcd4b83df">
+  <name>КонтрольКорректностиЗаполнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль корректности заполнения</value>
+  </synonym>
+  <methodName>CommonModule.ОбщийМодульСервер.КонтрольКорректностиЗаполнения</methodName>
+  <description>Контроль корректности заполнения</description>
+  <key>КонтрольКорректностиЗаполнения</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

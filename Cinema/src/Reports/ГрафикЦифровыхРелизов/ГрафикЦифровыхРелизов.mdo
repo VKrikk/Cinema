@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef36db65-8ce1-4d61-9605-67f1f1efab4a">
+  <producedTypes>
+    <objectType typeId="b58300cc-80c3-4858-aa9c-b1733c1c46f0" valueTypeId="fb111347-d6fa-440a-bd54-64bb18b4a900"/>
+    <managerType typeId="5d274218-5277-42e1-87e3-4eb75ef0aec8" valueTypeId="a86186a6-d486-4946-90f9-1772a645a52d"/>
+  </producedTypes>
+  <name>ГрафикЦифровыхРелизов</name>
+  <synonym>
+    <key>ru</key>
+    <value>График цифровых релизов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ГрафикЦифровыхРелизов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="8f8b7d48-d0aa-48f8-a7ba-880e92bca75b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e5615f9-eb52-49c9-a217-2b5966d584aa">
+  <producedTypes>
+    <objectType typeId="3b3204be-a9a5-4270-817a-909107d1ffda" valueTypeId="634bb6be-8791-4804-ae36-3968cf0b1309"/>
+    <managerType typeId="b1ab1281-ff30-4261-9c2b-37e82f40510f" valueTypeId="e1698968-8586-462a-9a44-25b76190f92a"/>
+  </producedTypes>
+  <name>ОтчетПоДатамСкачиванияФильмов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по датам скачивания фильмов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетПоДатамСкачиванияФильмов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="e7c5bb91-cb3b-44e0-bd22-567b3558c6fc">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="af4e2cad-cc89-407c-a9b6-066521413ff1">
+    <name>ОтчетПоДатамСкачиванияФильмов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по датам скачивания фильмов</value>
+    </synonym>
+    <group>ActionsPanelReports</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

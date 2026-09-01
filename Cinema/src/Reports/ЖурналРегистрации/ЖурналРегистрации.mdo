@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1338706d-e51d-401d-824c-36bf4c67a847">
+  <producedTypes>
+    <objectType typeId="1c180f9a-4f81-4e31-ac8b-6b9511758dee" valueTypeId="9e9db6ae-e80f-40a4-93f9-29d18c0b6658"/>
+    <managerType typeId="e29e7aed-94f7-4101-ac03-557b6156edf8" valueTypeId="7946db65-2085-42c0-8493-4e01daa38f58"/>
+  </producedTypes>
+  <name>ЖурналРегистрации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал регистрации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЖурналРегистрации.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="4928d725-cf33-491f-8524-a6f8fea9a0c1">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="4a26088a-8223-4456-a1ef-a8f154361c65">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

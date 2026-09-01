@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c754c78c-65cb-47c0-b56b-a6000adcbd5b">
+  <producedTypes>
+    <objectType typeId="dfef78cf-d7f6-4242-bedc-1c9559fdc7a2" valueTypeId="8672ab06-49db-4da0-8c59-5a30b530cc83"/>
+    <managerType typeId="6b1c883a-cf8b-4195-b56c-0a7c342ac629" valueTypeId="5e4bd6ff-84d1-49ad-b8d4-2a344f0fd935"/>
+  </producedTypes>
+  <name>НекорректноЗаполненныеФильмы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Некорректно заполненные фильмы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.НекорректноЗаполненныеФильмы.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.НекорректноЗаполненныеФильмы.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="478c618c-4c2a-4250-88d7-8237f63d7c09">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="4b438b05-c43c-4107-bbc4-a0034298506b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c4126fd-1442-416a-8d2f-adc2b6e8f571">
+  <name>request_for_download_pl</name>
+  <synonym>
+    <key>ru</key>
+    <value>request_for_download.pl</value>
+  </synonym>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

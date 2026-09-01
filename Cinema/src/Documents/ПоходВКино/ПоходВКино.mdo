@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33776eb9-c208-4db2-b94b-24a23c9f2ab3">
+  <producedTypes>
+    <objectType typeId="565628c9-4a8d-44d4-8478-59e8f3eb7072" valueTypeId="5b6b6467-bde9-4d77-8031-efda0e9d8a98"/>
+    <refType typeId="4a39cbf8-beda-4d28-bd11-5417472afb10" valueTypeId="9424c4c4-9bea-4d72-baec-a98736fcfed1"/>
+    <selectionType typeId="ce86b036-c361-4168-9fd6-02daa2b12912" valueTypeId="929e795c-fd24-4c90-aa75-516326a6fb69"/>
+    <listType typeId="40656f16-8301-48b3-a864-c30856b1d044" valueTypeId="c2b1d201-9492-4e55-a7c7-1b8137b145e2"/>
+    <managerType typeId="1426f10c-332e-4a27-88f1-a6704aa78720" valueTypeId="98c7596c-6434-47be-bbd9-b9405b8f7485"/>
+  </producedTypes>
+  <name>ПоходВКино</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поход в кино</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПоходВКино.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Походы в кино</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПоходВКино.Form.ФормаДокумента</defaultObjectForm>
+  <posting>Deny</posting>
+  <realTimePosting>Deny</realTimePosting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="669f6cdc-7313-4f55-9912-c63f097c9485">
+    <name>Фильм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фильм</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Фильмы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="65c3d359-3226-47a8-83aa-c5a814b770b5">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

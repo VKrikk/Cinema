@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddcef6e8-825f-4588-bf40-369e497dc74c">
+  <producedTypes>
+    <managerType typeId="9702c4d0-a0f8-482a-b9ce-61c277d11f86" valueTypeId="135ea066-0d17-4cc2-a213-e25232ccabef"/>
+    <valueManagerType typeId="7b713cfe-7b8a-43b9-a9ff-46dc1dd8b493" valueTypeId="76e2b85c-6854-498c-b255-aadc71e8003e"/>
+    <valueKeyType typeId="f1046876-e2ae-4748-ae4f-fb3314f9e729" valueTypeId="b30c32c7-891e-4d1f-ad64-5dc6bd6d6147"/>
+  </producedTypes>
+  <name>АвтоЗавершениеСеансов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Авто завершение сеансов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="823675ec-0cb7-4b49-88bd-8ca21020e50a">
+  <producedTypes>
+    <objectType typeId="17dea41c-cc0e-4bcc-a04a-8d2768a64d27" valueTypeId="0cbedbd4-6348-4ea2-bd58-3b0aa29f1ea8"/>
+    <refType typeId="05a887c0-1f44-4e36-a27f-5cc1497dd49a" valueTypeId="4a5c62e6-0646-4c89-9be0-14aff6b9af4e"/>
+    <selectionType typeId="463b804f-a3d9-430c-a965-0d49f0da3860" valueTypeId="9f19721d-4750-4ada-ad81-6d5e7a97844c"/>
+    <listType typeId="5cbc97ee-16d4-492c-a424-484db4cd21cd" valueTypeId="cff55c20-06df-4627-a245-46e661dc5681"/>
+    <managerType typeId="89a1a858-6199-46dd-ad34-3dfa334b4432" valueTypeId="ca411d8e-633b-4e6d-8b37-0b2822a3d029"/>
+    <containerType typeId="8c9a79cd-971c-46fe-81de-9c292e8bb6f8" valueTypeId="e23b8ded-b7d5-4be9-a77b-0b4194e602c0"/>
+  </producedTypes>
+  <name>ДополнительныеСвойства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные свойства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ДополнительныеСвойства.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ДополнительныеСвойства.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <characteristicExtValues>Catalog.ЗначенияСвойств</characteristicExtValues>
+  <type>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>CatalogRef.ЗначенияСвойств</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <scale>1</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="07ed93d4-0740-4f68-a1d6-ce9ddf776cd4">
+      <name>IMDb</name>
+      <description>IMDb</description>
+      <code>000000002</code>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <scale>1</scale>
+        </numberQualifiers>
+      </type>
+    </items>
+    <items id="87679e15-b76d-489f-8f85-166b1e760f15">
+      <name>Просмотрен</name>
+      <description>Просмотрен</description>
+      <code>000000001</code>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

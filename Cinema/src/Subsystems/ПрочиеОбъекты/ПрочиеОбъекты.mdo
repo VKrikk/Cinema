@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0774f527-b911-4c6a-967a-90a3fae7758b">
+  <name>ПрочиеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочие объекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.ПогодаВВолхове</content>
+  <content>DataProcessor.ПереименованиеПоСписку</content>
+  <content>DataProcessor.РаскодированиеФайлаVCF</content>
+  <content>DataProcessor.ПрочиеОбработки</content>
+  <content>DataProcessor.ИграПятнашка</content>
+  <content>DataProcessor.ЗагрузкаВыгрузкаBase64</content>
+  <content>DataProcessor.ПоискВДанных</content>
+  <content>DataProcessor.УниверсальнаяКонсоль</content>
+  <content>DataProcessor.ПрочитатьФайлVCF</content>
+  <content>DataProcessor.ВалидаторФайловFB2</content>
+  <content>DataProcessor.КонсольЗаданий</content>
+  <content>Report.ИсторияДанных</content>
+  <content>Report.ЖурналРегистрации</content>
+  <content>Report.РейтингIMDb</content>
+  <content>DataProcessor.ИнформацияОСистеме</content>
+</mdclass:Subsystem>

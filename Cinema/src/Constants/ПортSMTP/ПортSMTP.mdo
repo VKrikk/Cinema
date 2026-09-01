@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b115b43-45ca-4778-983a-b92419f5cdef">
+  <producedTypes>
+    <managerType typeId="960dac6e-29b6-4f01-ad99-f7147f48cf92" valueTypeId="a2402487-5c6a-4f9b-a3de-bdea99c2083f"/>
+    <valueManagerType typeId="e41c6508-0412-471e-9a8c-22964272afdf" valueTypeId="62ef89dd-b878-4244-b367-ec45eb48d6be"/>
+    <valueKeyType typeId="0c51b699-41d6-5788-b233-ec6e419eee1e" valueTypeId="b1224b03-808b-5743-aa8f-3db6df8d623c"/>
+  </producedTypes>
+  <name>ПортSMTP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порт SMTP</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

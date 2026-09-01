@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c071cd36-583c-4427-82c6-5a380dc01c54">
+  <producedTypes>
+    <objectType typeId="8f081e1f-eb69-4885-bee0-e9f1e25b6014" valueTypeId="8ff4584c-8ae8-4080-b8d1-372538d2c64a"/>
+    <managerType typeId="c9414ec2-7528-45b3-9801-2eb7be3fa060" valueTypeId="e3ef6c1e-0620-414c-85b5-3fc7b699ac83"/>
+  </producedTypes>
+  <name>СтраныПроизводители</name>
+  <synonym>
+    <key>ru</key>
+    <value>Страны-производители</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СтраныПроизводители.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="1c85c60f-4c16-489a-8df9-a60084b6a26e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

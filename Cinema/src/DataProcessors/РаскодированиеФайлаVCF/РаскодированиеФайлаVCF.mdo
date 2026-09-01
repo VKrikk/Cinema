@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f241883-eec7-4768-82a0-348ccf1b7f38">
+  <producedTypes>
+    <objectType typeId="433334f5-5ebe-4bbd-bb57-cf8f24e9aa95" valueTypeId="0d0b17ee-420f-48eb-8997-469a4ce8dd63"/>
+    <managerType typeId="eeed0c44-2a3a-4966-a7e9-5ee1f0f93f48" valueTypeId="927e7f53-4dca-488e-9b87-f01a1a5f775f"/>
+  </producedTypes>
+  <name>РаскодированиеФайлаVCF</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раскодирование файла VCF</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РаскодированиеФайлаVCF.Form.Форма</defaultForm>
+  <forms uuid="99857f52-b3d6-4393-a4ef-e44dedfc2548">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

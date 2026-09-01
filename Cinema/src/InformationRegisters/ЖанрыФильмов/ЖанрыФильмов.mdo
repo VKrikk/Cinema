@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bc086ca-f82c-43b3-8348-12c51b9cde04">
+  <producedTypes>
+    <selectionType typeId="eda185bd-0959-4b38-a7ae-680dc67f94aa" valueTypeId="00b6fb33-38f0-4519-9fe9-adec16fe8681"/>
+    <listType typeId="ef322928-5c86-4ae3-90c0-5f6629b986ea" valueTypeId="f8055e5c-7cfe-4027-a5c2-ee5c725ce83b"/>
+    <managerType typeId="29889732-eab1-400c-9e1a-9855c68e9d23" valueTypeId="c74c71f8-d632-410a-9d8b-b0dc99191bed"/>
+    <recordSetType typeId="e16c408f-7723-482b-a551-0b25f5614c85" valueTypeId="6e3f61b8-90f9-4ed5-970f-626718efb3e2"/>
+    <recordKeyType typeId="1a0cadbb-5a2d-4aed-a53f-b7e74a8df0ea" valueTypeId="8ad92ac1-60dd-4f74-8eab-4e75137b450c"/>
+    <recordType typeId="2d85cb72-a0b1-484a-abac-e1d290376126" valueTypeId="a4c13879-a725-4335-92f2-cd01cee3ddf8"/>
+    <recordManagerType typeId="34d3cd8a-95ba-4594-bfa4-82f253d97f61" valueTypeId="336697d1-7a79-4c47-9cb2-98c036a0e009"/>
+  </producedTypes>
+  <name>ЖанрыФильмов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Жанры фильмов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="3baabec4-8495-4856-b81f-cc96577f39d2">
+    <name>Фильм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фильм</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Фильмы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="65b70f46-1acb-4a3c-bdc8-b37c2a97acff">
+    <name>Жанр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Жанр</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Жанры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

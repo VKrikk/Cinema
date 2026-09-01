@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34031853-3ddd-4b8c-a903-bbfd186caacf">
+  <producedTypes>
+    <managerType typeId="2699d1fd-1e5b-418c-89e9-6f051fcbbf4c" valueTypeId="fea560b1-dc96-448f-85a0-d0127235130e"/>
+    <valueManagerType typeId="5e5306f9-8d1b-4bb8-b378-875102074bea" valueTypeId="2cb521f7-436b-4ad9-8854-52a695822cde"/>
+    <valueKeyType typeId="8d679331-9160-41de-90bd-b6958d806fcc" valueTypeId="e1761381-2438-4205-b8c9-b26f09dc3445"/>
+  </producedTypes>
+  <name>УтилитаКонвертацииИзображений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Утилита конвертации изображений</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>255</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

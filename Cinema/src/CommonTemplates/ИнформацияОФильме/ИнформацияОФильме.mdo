@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78bba46c-5ae5-4d3e-9688-b8d9f79e77bd">
+  <name>ИнформацияОФильме</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информация о фильме</value>
+  </synonym>
+  <templateType>DataCompositionSchema</templateType>
+</mdclass:CommonTemplate>
