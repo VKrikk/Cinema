@@ -20,6 +20,10 @@
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Дополнительное свойство</value>
+  </objectPresentation>
   <characteristicExtValues>Catalog.ЗначенияСвойств</characteristicExtValues>
   <type>
     <types>Boolean</types>

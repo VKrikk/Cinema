@@ -6,7 +6,6 @@
     <value>Контроль корректности заполнения</value>
   </synonym>
   <methodName>CommonModule.ОбщийМодульСервер.КонтрольКорректностиЗаполнения</methodName>
-  <description>Контроль корректности заполнения</description>
   <key>КонтрольКорректностиЗаполнения</key>
   <use>true</use>
   <predefined>true</predefined>

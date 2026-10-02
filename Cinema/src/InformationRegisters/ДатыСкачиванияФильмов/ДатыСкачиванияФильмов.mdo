@@ -18,6 +18,14 @@
   <editType>InDialog</editType>
   <defaultListForm>InformationRegister.ДатыСкачиванияФильмов.Form.ФормаСписка</defaultListForm>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Дата скачивания фильма</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Даты скачивания фильмов</value>
+  </listPresentation>
   <resources uuid="24475423-c1cb-46db-b54a-a00edfd06399">
     <name>ДатаСкачивания</name>
     <synonym>
