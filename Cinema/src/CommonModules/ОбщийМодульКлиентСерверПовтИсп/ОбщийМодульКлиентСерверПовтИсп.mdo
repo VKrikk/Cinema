@@ -5,8 +5,8 @@
     <key>ru</key>
     <value>Общий модуль клиент/сервер повт. исп.</value>
   </synonym>
-  <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
   <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
   <returnValuesReuse>DuringSession</returnValuesReuse>
 </mdclass:CommonModule>

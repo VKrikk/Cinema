@@ -128,7 +128,6 @@
   <dataProcessors>DataProcessor.ПрочитатьФайлVCF</dataProcessors>
   <dataProcessors>DataProcessor.РаскодированиеФайлаVCF</dataProcessors>
   <dataProcessors>DataProcessor.УниверсальнаяКонсоль</dataProcessors>
-  <dataProcessors>DataProcessor.ПолучитьПочту</dataProcessors>
   <informationRegisters>InformationRegister.ДатыСкачиванияФильмов</informationRegisters>
   <informationRegisters>InformationRegister.ЖанрыФильмов</informationRegisters>
   <informationRegisters>InformationRegister.ЗначенияДополнительныхСвойств</informationRegisters>
