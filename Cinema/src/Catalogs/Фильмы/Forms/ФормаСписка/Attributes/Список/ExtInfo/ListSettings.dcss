@@ -26,47 +26,6 @@
 		<userSettingID>36865281-6825-4452-903d-0e5f10ecdc8a</userSettingID>
 	</order>
 	<conditionalAppearance>
-		<item>
-			<selection/>
-			<filter>
-				<item xsi:type="FilterItemComparison">
-					<left xsi:type="dcscor:Field">ЕстьВФильмотеке</left>
-					<comparisonType>Equal</comparisonType>
-					<right xsi:type="xs:boolean">true</right>
-				</item>
-			</filter>
-			<appearance>
-				<dcscor:item xsi:type="SettingsParameterValue">
-					<dcscor:parameter>Шрифт</dcscor:parameter>
-					<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
-				</dcscor:item>
-			</appearance>
-		</item>
-		<item>
-			<selection/>
-			<filter>
-				<item xsi:type="FilterItemComparison">
-					<left xsi:type="dcscor:Field">НужноСкачать</left>
-					<comparisonType>Equal</comparisonType>
-					<right xsi:type="xs:boolean">true</right>
-				</item>
-			</filter>
-			<appearance>
-				<dcscor:item xsi:type="SettingsParameterValue">
-					<dcscor:use>false</dcscor:use>
-					<dcscor:parameter>ЦветФона</dcscor:parameter>
-					<dcscor:value xsi:type="v8ui:Color">auto</dcscor:value>
-				</dcscor:item>
-				<dcscor:item xsi:type="SettingsParameterValue">
-					<dcscor:parameter>ЦветТекста</dcscor:parameter>
-					<dcscor:value xsi:type="v8ui:Color">style:ButtonTextColor</dcscor:value>
-				</dcscor:item>
-				<dcscor:item xsi:type="SettingsParameterValue">
-					<dcscor:parameter>Шрифт</dcscor:parameter>
-					<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
-				</dcscor:item>
-			</appearance>
-		</item>
 		<viewMode>Normal</viewMode>
 	</conditionalAppearance>
 	<item xsi:type="StructureItemGroup">
