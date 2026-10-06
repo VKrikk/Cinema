@@ -6,7 +6,6 @@
     <value>Погода в Волхове</value>
   </synonym>
   <methodName>CommonModule.ОбщийМодульСервер.ПогодаВВолхове</methodName>
-  <description>Погода в Волхове</description>
   <key>Погода в Волхове</key>
   <use>true</use>
   <predefined>true</predefined>

@@ -6,7 +6,6 @@
     <value>Уменьшение размеров изображений</value>
   </synonym>
   <methodName>CommonModule.ОбщийМодульСервер.УменьшениеРазмеровИзображений</methodName>
-  <description>Уменьшение размеров изображений</description>
   <key>Уменьшение размеров изображений</key>
   <use>true</use>
   <predefined>true</predefined>

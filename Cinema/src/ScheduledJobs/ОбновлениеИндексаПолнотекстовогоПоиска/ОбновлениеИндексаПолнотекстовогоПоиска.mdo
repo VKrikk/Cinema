@@ -6,7 +6,6 @@
     <value>Обновление индекса полнотекстового поиска</value>
   </synonym>
   <methodName>CommonModule.ОбщийМодульСервер.ОбновлениеИндексаПолнотекстовогоПоиска</methodName>
-  <description>Обновление индекса полнотекстового поиска</description>
   <key>Обновление индекса полнотекстового поиска</key>
   <use>true</use>
   <predefined>true</predefined>
