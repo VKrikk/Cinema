@@ -47,6 +47,7 @@
   <subsystems>Subsystem.Фильмотека</subsystems>
   <subsystems>Subsystem.ПрочиеОбъекты</subsystems>
   <styleItems>StyleItem.ЦветСерый</styleItems>
+  <styleItems>StyleItem.ШрифтПолужирный</styleItems>
   <commonPictures>CommonPicture.Book_64</commonPictures>
   <commonPictures>CommonPicture.Cinema_64</commonPictures>
   <commonPictures>CommonPicture.Download_64</commonPictures>
