@@ -17,6 +17,14 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Жанр фильма</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Жанры фильмов</value>
+  </listPresentation>
   <dimensions uuid="3baabec4-8495-4856-b81f-cc96577f39d2">
     <name>Фильм</name>
     <synonym>

@@ -17,6 +17,14 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Значение дополнительного свойства</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Значения дополнительных свойств</value>
+  </listPresentation>
   <resources uuid="34c72f53-4864-4957-9998-d6e6ad52ff57">
     <name>ЗначениеСвойства</name>
     <synonym>
