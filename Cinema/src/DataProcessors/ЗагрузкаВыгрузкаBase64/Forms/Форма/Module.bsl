@@ -37,6 +37,8 @@
 
 #Область ОбработчикиКомандФормы
 
+//@skip-check module-structure-form-event-regions
+//@skip-check module-unused-method
 &НаКлиенте
 Процедура ЗакодироватьBase64(Команда)
 
@@ -44,6 +46,8 @@
 
 КонецПроцедуры
 
+//@skip-check module-structure-form-event-regions
+//@skip-check module-unused-method
 &НаКлиенте
 Процедура РаскодироватьBase64(Команда)
 
