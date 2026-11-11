@@ -60,6 +60,7 @@
             <borderColor xsi:type="core:ColorRef">
               <color>Style.BorderColor</color>
             </borderColor>
+            <textSize>Normal</textSize>
           </extInfo>
         </items>
         <items xsi:type="form:Button">
@@ -124,6 +125,7 @@
           </extendedTooltip>
           <type>Hyperlink</type>
           <commandName>Form.StandardCommand.Help</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>PictureAndText</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -160,6 +162,7 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.Настройка</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -254,6 +257,7 @@
             </extendedTooltip>
             <type>Hyperlink</type>
             <commandName>Form.Command.ОбновитьИндекс</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -334,7 +338,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
-              <editMode>EnterOnInput</editMode>
+              <editMode>Auto</editMode>
               <showInHeader>true</showInHeader>
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
@@ -345,6 +349,7 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <textSize>Normal</textSize>
               </extInfo>
             </items>
             <autoCommandBar>
@@ -448,6 +453,11 @@
             <footerHeight>1</footerHeight>
             <horizontalScrollBar>AutoUse</horizontalScrollBar>
             <verticalScrollBar>AutoUse</verticalScrollBar>
+            <horizontalLines>true</horizontalLines>
+            <verticalLines>true</verticalLines>
+            <horizontalLinesBWA>false</horizontalLinesBWA>
+            <verticalLinesBWA>false</verticalLinesBWA>
+            <useAlternationRowColorBWA>false</useAlternationRowColorBWA>
             <autoInsertNewRow>true</autoInsertNewRow>
             <searchOnInput>Auto</searchOnInput>
             <initialListView>Auto</initialListView>
@@ -459,6 +469,7 @@
             <searchStringLocation>None</searchStringLocation>
             <viewStatusLocation>None</viewStatusLocation>
             <searchControlLocation>None</searchControlLocation>
+            <autoMaxCardHeight>true</autoMaxCardHeight>
           </items>
           <items xsi:type="form:Button">
             <name>ВыбратьМетаданные</name>
@@ -481,6 +492,7 @@
             </extendedTooltip>
             <type>UsualButton</type>
             <commandName>Form.Command.ВыбратьМетаданные</commandName>
+            <buttonImportance>Normal</buttonImportance>
             <representation>Picture</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -602,6 +614,7 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+              <textSize>Normal</textSize>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -708,6 +721,7 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <textSize>Normal</textSize>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -804,6 +818,7 @@
           </extendedTooltip>
           <type>Hyperlink</type>
           <commandName>Form.Command.Назад</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <height>1</height>
@@ -844,6 +859,7 @@
           </extendedTooltip>
           <type>Hyperlink</type>
           <commandName>Form.Command.Далее</commandName>
+          <buttonImportance>Normal</buttonImportance>
           <representation>Picture</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <height>1</height>
@@ -997,6 +1013,8 @@
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
         <showTitle>true</showTitle>
+        <showTitle>auto</showTitle>
+        <scrollOnCompress>false</scrollOnCompress>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -1020,6 +1038,7 @@
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>
+  <showCommandBar>false</showCommandBar>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -1030,6 +1049,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <windowOpeningMode>DontBlock</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -1037,6 +1057,7 @@
   <enabled>true</enabled>
   <verticalScroll>UseIfNecessary</verticalScroll>
   <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
@@ -1408,6 +1429,7 @@
     </action>
     <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>Далее</name>
@@ -1430,6 +1452,7 @@
     </action>
     <representation>Picture</representation>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>Назад</name>
@@ -1452,6 +1475,7 @@
     </action>
     <representation>Picture</representation>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>Настройка</name>
@@ -1474,6 +1498,7 @@
     </action>
     <representation>Picture</representation>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ВыбратьМетаданные</name>
@@ -1495,6 +1520,7 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <formCommands>
     <name>ОбновитьИндекс</name>
@@ -1520,6 +1546,7 @@
     </action>
     <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

@@ -510,6 +510,7 @@
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
   </handlers>
+  <windowOpeningMode>DontBlock</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -519,6 +520,7 @@
   <enabled>true</enabled>
   <verticalScroll>UseIfNecessary</verticalScroll>
   <showTitle>true</showTitle>
+  <showTitle>auto</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
