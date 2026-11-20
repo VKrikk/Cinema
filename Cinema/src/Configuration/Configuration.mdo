@@ -35,8 +35,6 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <interfaceCompatibilityMode>TaxiEnableVersion8_5</interfaceCompatibilityMode>
-  <version85InterfaceMigrationMode>Use</version85InterfaceMigrationMode>
   <compatibilityMode>8.5.1</compatibilityMode>
   <languages uuid="4bd5c8f4-fc48-4735-ab48-6a514031d35c">
     <name>Русский</name>
@@ -48,8 +46,6 @@
   </languages>
   <subsystems>Subsystem.Фильмотека</subsystems>
   <subsystems>Subsystem.ПрочиеОбъекты</subsystems>
-  <styleItems>StyleItem.ЦветСерый</styleItems>
-  <styleItems>StyleItem.ШрифтПолужирный</styleItems>
   <commonPictures>CommonPicture.Book_64</commonPictures>
   <commonPictures>CommonPicture.Cinema_64</commonPictures>
   <commonPictures>CommonPicture.Download_64</commonPictures>
